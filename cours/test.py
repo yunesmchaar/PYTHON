@@ -33,6 +33,27 @@ print(f"Your gpa is: {gpa}")
 print(f"Your distance is:{distance}km")
 
 
+#Boolean
+
+is_student = False
+print(f"Are you a student?:{is_student}")
+if is_student:
+    print("you are a student")
+else:
+    print("You are Not a student")
+for_sale = True
+if for_sale:
+    print("That item is for sale")
+else:
+    print("That item is NOT available")
+is_online= False
+if is_online:
+    print(f"You are online")
+else:
+    print(f"You are offline")
+
+
+
 
 
 
