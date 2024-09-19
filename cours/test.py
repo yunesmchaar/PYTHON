@@ -52,6 +52,50 @@ if is_online:
 else:
     print(f"You are offline")
 
+#typecasting = the process of converting a variable from one type to another
+#str(),int(),float(),bool()
+
+name="Bro Code"
+age = 25
+gpa = 3.2
+is_student = True
+
+print(type(name))
+print(type(age))
+print(type(gpa))
+print(type(is_student))
+
+#afficher le contenue de age
+age=str(age)
+print(age)
+print(type(age))
+
+#input() = A function that prompts the user to enter data
+#          Returns the entered data as a string
+
+name=input("what is your name?:")
+age=input("what is rour age?:")
+age=int(age)
+age+=1
+print(f"Hello {name}!")
+print("HAPPY BIRTHDAY!")
+print(f"You are {age}!")
+
+#Exercise 1 Rectangle Area Calc
+length = input("Enter the length:")
+width= input("Enter the width:")
+length=int(length)
+width=int(width)
+
+area=length*width
+
+print(f"The area is: {area}cm²")
+
+
+
+
+
+
 
 
 
