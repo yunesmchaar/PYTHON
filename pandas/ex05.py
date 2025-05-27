@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 datas= {
     'nom':["A","B","C","D","E","F"],
@@ -22,3 +23,12 @@ print(mydatas)
 mydatas.loc[5]=['F','AF0002','45']
 print(mydatas)
 
+#plt.plot(mydatas['nom'],mydatas['AGE'],'o:r',mec='k',mfc='r',label="Data")
+plt.pie(mydatas['AGE'],labels=mydatas['nom'],autopct='%1.1f%%')
+plt.title("Diagramme de Data")
+plt.xlabel("AXE:X")
+plt.ylabel("AXE:Y")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
